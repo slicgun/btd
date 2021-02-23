@@ -1,11 +1,11 @@
-workspace "default_project"
+workspace "btd"
 	configurations {"Debug", "Release"}
 	location "../"
-	startproject "default_project"
+	startproject "btd"
 
 include "../vendor/Glad"
 
-project "default_project"
+project "btd"
 	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++17"
