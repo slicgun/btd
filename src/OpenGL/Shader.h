@@ -87,6 +87,6 @@ private:
 	GLuint compileShader(const char* src, GLenum shaderType);
 	void linkProgram(GLuint vertexShader, GLuint fragmentShader);
 private:
-	GLuint m_id;
+	GLuint m_id = 0;
 	std::unordered_map<std::string, GLint> m_uniformLocations;
 };
